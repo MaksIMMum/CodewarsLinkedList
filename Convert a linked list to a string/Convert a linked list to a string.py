@@ -12,6 +12,3 @@ def stringify(node):
         node = node.next
     res += "None"
     return res
-
-
-#print(stringify(Node(0, Node(1, Node(2, Node(3))))))
